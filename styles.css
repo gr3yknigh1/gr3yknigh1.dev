@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Iosevka';
+    src: url('/fonts/Iosevka.ttf');
+    font-weight:normal;
+    font-style: normal;
+}
+
 body {
     font-family:'Iosevka';
 }
