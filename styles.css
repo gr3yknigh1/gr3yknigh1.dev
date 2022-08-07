@@ -27,7 +27,6 @@
 body {
     font-family:'Iosevka';
     background-color: var(--background);
-    font-size: 120%;
 }
 
 img#avatar {
@@ -37,8 +36,18 @@ img#avatar {
     height: 150px;
 }
 
+.content {
+    font-size: 120%;
+    margin: auto;
+    width: 400px;
+}
+
 .centered {
     text-align: center;
+}
+
+.justyfied {
+    text-align: justify;
 }
 
 .text {
@@ -67,11 +76,4 @@ a {
 
 .highlited {
     color: var(--yellow);
-}
-
-div.text {
-    margin: auto;
-    align-content:stretch;
-    justify-content: stretch;
-    width: 400px;
 }
